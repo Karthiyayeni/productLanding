@@ -1,0 +1,139 @@
+#header {
+  background-color: white;
+  height: 5vh;
+  width: 100vw;
+  margin-bottom: 150px;
+  display: inline;
+}
+#logo {
+  width: 10vw;
+  display: inline-block;
+  float: left;
+}
+#header-img {
+  margin-top: 0em;
+  display: inline-block;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
+#nav-bar {
+  display: inline-block;
+  margin-left: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+#first-block {
+  background-image: url("https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}
+
+#first-block-text {
+  color: white;
+  font-family: "Kaushan Script", cursive;
+  font-size: 100px;
+  width: 25vw;
+  margin-left: 150px;
+}
+body {
+  margin: 0px;
+}
+h3 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 2rem;
+  color: #e56b6f;
+  margin: 50px auto;
+  text-align: center;
+}
+.second-block-arrivals {
+  display: flex-inline;
+  margin: 50px;
+}
+.second-block-segment {
+  display: inline-block;
+}
+.second-block-img {
+  display: inline-block;
+  height: 350px;
+  width: 350px;
+}
+.img-title {
+  color: #6d6875;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.second-block-seg-img {
+  display: inline-block;
+  height: 350px;
+  width: 700px;
+}
+#third-block {
+  background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  width: 100vw;
+  height: 25vh;
+}
+#third-block-text {
+  color: white;
+  margin-left: 650px;
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+}
+#stores-block {
+  display: inline-block;
+}
+#fourth-block {
+  background-image: url("https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  font-family: "Noto Serif", serif;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#video-frame {
+  margin: auto;
+  width: 50%;
+}
+#newsletter {
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+  text-align: center;
+}
+#submit {
+  background-color: black;
+  color: white;
+  width: 100px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  .first-block {
+    background-image: url("https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+  }
+
+  #first-block-text {
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    font-size: 50px;
+    width: 25vw;
+    margin-left: 150px;
+  }
+}
